@@ -3,13 +3,7 @@ body {
   font-family: Arial;
 }
 
-.container {
+.hero {
   height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.cover {
-  width: 50%;
+  background: url(/assets/images/brockmacoy-photo-download-1of1/IMG_2960.jpg) center / cover no-repeat;
 }
