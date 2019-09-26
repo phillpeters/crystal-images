@@ -1,9 +1,28 @@
+/*
+  Variables
+*/
 body {
   margin: auto 0;
   font-family: Arial;
 }
 
 .hero {
-  height: 100vh;
-  background: url(/assets/images/brockmacoy-photo-download-1of1/IMG_2960.jpg) center / cover no-repeat;
+  display: none;
 }
+
+@media all and (min-width: 67.5em) and (min-height: 25em) {
+  .hero {
+    background: url(/assets/images/brockmacoy-photo-download-1of1/Webp.net-resizeimage.jpg) bottom center/cover no-repeat #3d6890;
+    /* element dimensions */
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    /* use the CSS Flexible Box Layout Module */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
