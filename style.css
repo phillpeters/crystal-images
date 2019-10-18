@@ -1,28 +1,39 @@
-/*
-  Variables
-*/
 body {
   margin: auto 0;
   font-family: Arial;
 }
 
 .hero {
-  display: none;
+  height: 100vh;
+  background: url(/assets/images/brockmacoy-photo-download-1of1/IMG_2960.jpg) center / cover no-repeat;
 }
 
-@media all and (min-width: 67.5em) and (min-height: 25em) {
-  .hero {
-    background: url(/assets/images/brockmacoy-photo-download-1of1/Webp.net-resizeimage.jpg) bottom center/cover no-repeat #3d6890;
-    /* element dimensions */
-    width: 100vw;
-    height: 100vh;
-    position: relative;
-    /* use the CSS Flexible Box Layout Module */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
+.navbar {
+  height: 75px;
 }
 
-/*# sourceMappingURL=style.css.map */
+.menu {
+  height: 100%;
+  margin-top: 10px;
+  margin-left: 5px;
+}
+
+.main-logo{
+  position: absolute;
+  bottom: 200px;
+  /* margin: auto; */
+  width: 100%;
+  text-align: center;
+}
+
+.logo {
+  /* width: 100%; */
+  position: relative;
+  width: 50%;
+  margin: auto;
+}
+
+.empty{
+  height: 2000px;
+  width: 100%;
+}
